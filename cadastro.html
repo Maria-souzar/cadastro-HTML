@@ -1,0 +1,61 @@
+<html lang="PT-BR">
+    <!--Cabeçalho-->
+    <head>
+        <meta charset = "UTF-8">
+        <title>Aula 01</title>
+    </head>
+    <!--Corpo-->
+    <body bgcolor="#6A5ACD" text="white" link="white" alink="white" vlink="white">
+        <center>
+        <marquee behavior="alternate" scrollamount="5">
+            <h1><b><u>Cadastro de Clientes</u></b></h1>
+        </marquee>
+        </center>
+        <form>
+            <p>
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label>Nome do Cliente:</label><br>
+                    <input type="text" placeholder="Insira seu nome:" maxlength="60" size="60" required="yes"><br><p>
+                    <label>Data de Nascimento:</label>
+                    <input type="date" format="dd-mm-yyyy"><p>
+                    <label>Senha:</label>
+                    <input type="password" size="20" maxlength="20"><p>
+                    <label>Selecione sua idade:</label>
+                    <input type="number" min="1" max="100"><p>
+                    <label>Observações Gerais:</label><br>
+                    <textarea placeholder="Digite aqui seu comentário:" cols="50" rows="6"></textarea><p>
+                    <label>Cursos de seu Interesse:</label>
+                    <ul>
+                        <li><input type="checkbox">HTML</li>
+                        <li><input type="checkbox">CSS</li>
+                        <li><input type="checkbox">JavaScript</li>
+                        <li><input type="checkbox">Python</li>
+                        <li><input type="checkbox">Java</li>
+                    </ul>
+                    <p>
+                        <label>Selecione uma cidade:</label><br>
+                        <select>
+                            <option>Mauá</option>
+                            <option>Santo André</option>
+                            <option>Ribeirão Pires</option>
+                            <option>Diadema</option>
+                            <option>São Bernardo do Campo</option>
+                        </select>
+                </fieldset>
+            </p>
+            <fieldset>
+                <legend>Selecione um tema:</legend>
+                <input type="radio" name="tema">Tema Claro<br>
+                <input type="radio" name="tema">Tema Escuro<br>
+            </fieldset>
+            <p>
+                <center>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar"><p>
+                    <a href="https://fatecmaua.com.br/">Fatec Mauá</a>
+                </center>
+            </p>
+        </form>
+    </body>
+</html>
